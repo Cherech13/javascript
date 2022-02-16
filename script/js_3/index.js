@@ -1,12 +1,12 @@
 // 1.1
-let age = prompt('Введите сколько Вам лет?');
+let age = +prompt('Введите сколько Вам лет?');
 if (+age > 0 && + age <= 11) {
     console.log('Вы ребенок');
-} else if (+age > 11 && + age < 18) {
+} else if (age > 11 && age < 18) {
     console.log('Вы подросток');
-} else if (+age >= 18 && + age < 60) {
+} else if (age >= 18 && age < 60) {
     console.log('Вы взрослый');
-} else if (+age >= 60) {
+} else if (age >= 60) {
     console.log('Вы пенсионер')
 }
 
