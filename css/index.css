@@ -1,0 +1,60 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba (0, 0, 0, 0.8);
+}
+
+.modal_content {
+  background-color: red;
+  padding: 15px;
+  margin: 15% auto;
+  border: 1px solid black;
+  width: 90%;
+}
+
+.close {
+  color: rgb(11, 33, 155);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.traffic-lights {
+  margin: auto;
+  width: 60px;
+  height: 200px;
+  padding: 10px 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(61, 61, 53);
+  border-radius: 0.5rem;
+}
+.traffic__light {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 2px solid lightgrey;
+  background-color: grey;
+}
+
+.traffic__red {
+  background-color: red;
+  box-shadow: 0 0 25px red;
+}
+.traffic__green {
+  background-color: green;
+  box-shadow: 0 0 25px green;
+}
+.traffic__yellow {
+  background-color: yellow;
+  box-shadow: 0 0 25px yellow;
+}
