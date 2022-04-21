@@ -73,3 +73,14 @@ for (i = 1; i <= +n; i++) {
         console.log(i);
     }
 }
+
+let sum = prompt('Введите сумму покупки?');
+if (sum > 500) {
+  console.log('Ваша знижка буде 7%, До сплати', sum-sum*0.07);
+} else if (sum<500 && sum>300) {
+  console.log('Ваша знижка буде 5%, До сплати', sum-sum*0.05);
+} else if (sum<300 && sum>200) {
+  console.log('Ваша знижка буде 3%, До сплати', sum-sum*0.03);
+}else {
+  console.log('У Вас немає знижки, До сплати', sum);
+}
