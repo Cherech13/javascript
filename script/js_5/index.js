@@ -61,3 +61,4 @@ function timing(s, car_driver) {
     refuel(s);
     check(car_driver);
 } 
+// по отдельности мои функции работают, но если в function timing() вызывать функции которые обявлены выще, то не работает!
